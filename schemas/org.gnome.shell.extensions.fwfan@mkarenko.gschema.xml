@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.fwfan@mkarenko"
+        path="/org/gnome/shell/extensions/fwfan/">
+
+        <!-- Slider value (0-100 for fan speed control) -->
+        <key type="u" name="slider-value">
+            <default>50</default>  <!-- Default value for slider (50%) -->
+            <summary>Fan speed percentage</summary>
+            <description>
+                This key controls the fan speed percentage (0-100).
+            </description>
+        </key>
+
+        <!-- Refresh rate -->
+        <key type="i" name="refreshrate">
+            <default>3</default>
+            <summary>Refresh rate</summary>
+            <description>
+                How often the fan speed should be refreshed, in seconds.
+            </description>
+        </key>
+
+    </schema>
+</schemalist>

@@ -1,7 +1,9 @@
 {
-  "uuid": "fw13-fan-control@m.karenko@outlook.com",
+  "version": 1,
+  "uuid": "fwfan@mkarenko",
   "name": "Framework 13 Fan Control",
-  "description": "An example extension",
   "shell-version": ["46"],
-  "url": "https://github.com/mkarenko/fw13-fan-control"
+  "settings-schema": "org.gnome.shell.extensions.fwfan@mkarenko",
+  "session-modes": ["user", "unlock-dialog"],
+  "description": "An extension to control fan speed of framework 13 laptop"
 }
